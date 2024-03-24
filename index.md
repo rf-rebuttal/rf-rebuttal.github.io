@@ -9,6 +9,7 @@ Hence, K-Planes results are already optimal for the default number of 32 feature
 This further highlights the added value of our method, as it exhibits notable improvements to PSNR and SSIM while utilizing the same base representation.
 
 <center>
+  
 | Feature Dimension |   PSNR   |   SSIM    |
 | :---------------: | :------: | :-------: |
 | 16                |   21.25  |   0.6627  |
@@ -18,6 +19,7 @@ This further highlights the added value of our method, as it exhibits notable im
 | 256               |   21.68  |   0.6897  |
 |-------------------|----------|-----------|
 |**32 (our method)**| **23.42**| **0.7379**|
+
 </center>
 
 ## Table 2
@@ -28,6 +30,7 @@ Hence, K-Planes results are laready optimal ofr the default 512 x 512 resolution
 This also highlights the added value of our method, as it exhibits notable improvements to PSNR and SSIM while utilizing the same base representation.
 
 <center>
+  
 | Resolution               |   PSNR   |    SSIM   |
 | :----------------------: | :------: | :-------: |
 | 512 x 512                |   21.30  |   0.6627  |
@@ -37,6 +40,7 @@ This also highlights the added value of our method, as it exhibits notable impro
 | 1536 x 1536              |   19.88  |   0.5533  |
 |--------------------------|----------|-----------|
 |**512 x 512 (our method)**| **23.42**| **0.7379**|
+
 </center>
 
 
