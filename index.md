@@ -6,8 +6,8 @@ As illustrated, the rendering quality of K-Planes does not exhibit notable impro
 Hence, K-Planes results are already optimal for the default number of 32 features.
 This further highlights the added value of our method, as it exhibits notable improvements to PSNR and SSIM while utilizing the same base representation.
 
-<center>
-    
+<div align="center">
+
 <table>
     <tr>
         <th>Feature Dimension</th>
@@ -46,7 +46,7 @@ This further highlights the added value of our method, as it exhibits notable im
     </tr>
 </table>
 
-</center>
+</div>
 
 
 ## Table B
@@ -56,7 +56,7 @@ Our experiments show that increasing this resolution actually degrades the quali
 Hence, K-Planes results are laready optimal ofr the default 512 x 512 resolution.
 This also highlights the added value of our method, as it exhibits notable improvements to PSNR and SSIM while utilizing the same base representation.
 
-<center>
+<div align="center">
     
 <table>
     <tr>
@@ -96,7 +96,7 @@ This also highlights the added value of our method, as it exhibits notable impro
     </tr>
 </table>
 
-</center>
+</div>
 
 ## Figure A
 In this figure, we illustrate the rendering PSNR throughout our optimization procedure.
