@@ -12,9 +12,9 @@ This further highlights the added value of our method, as it exhibits notable im
 
 <table>
     <tr>
-        <td>Feature Dimension</td>
-        <td>PSNR</td>
-        <td>SSIM</td>
+        <th>Feature Dimension</th>
+        <th>PSNR</th>
+        <th>SSIM</th>
     </tr>
     <tr>
         <td>16</td>
