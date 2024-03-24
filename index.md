@@ -59,15 +59,43 @@ This also highlights the added value of our method, as it exhibits notable impro
 
 <center>
   
-| Resolution               |   PSNR   |    SSIM   |
-| :----------------------: | :------: | :-------: |
-| 512 x 512                |   21.30  |   0.6627  |
-| 768 x 768                |   20.98  |   0.6388  |
-| 1024 x 1024              |   20.44  |   0.6128  |
-| 1280 x 1280              |   19.51  |   0.5800  |
-| 1536 x 1536              |   19.88  |   0.5533  |
-|--------------------------|----------|-----------|
-|**512 x 512 (our method)**| **23.42**| **0.7379**|
+<table>
+    <tr>
+        <td>Resolution</td>
+        <td>PSNR</td>
+        <td>SSIM</td>
+    </tr>
+    <tr>
+        <td>512 x 512</td>
+        <td>21.30</td>
+        <td>0.6627</td>
+    </tr>
+    <tr>
+        <td>768 x 768</td>
+        <td>20.98</td>
+        <td>0.6388</td>
+    </tr>
+    <tr>
+        <td>1024 x 1024</td>
+        <td>20.44</td>
+        <td>0.6128</td>
+    </tr>
+    <tr>
+        <td>1280 x 1280</td>
+        <td>19.51</td>
+        <td>0.5800</td>
+    </tr>
+    <tr>
+        <td>1536 x 1536</td>
+        <td>19.88</td>
+        <td>0.5533</td>
+    </tr>
+    <tr>
+        <td><b>512 x 512 (our method)</b></td>
+        <td><b>23.42</b></td>
+        <td><b>0.7379</b></td>
+    </tr>
+</table>
 
 </center>
 
