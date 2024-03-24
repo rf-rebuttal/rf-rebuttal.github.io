@@ -99,6 +99,6 @@ As depicted:
   - Our method improves upon K-Planes by side-stepping its lower PSNR plateau, through the re-initialization of K-Planes with the improved and _refined_ K-Planes.
   - Hence, this allows our base representation to converge to a significantly higher PSNR than what it would have attained without scene refining.
 
-<center>
-![Figure](assets/css/psnr_curve.svg)
-</center>
+<p align="center">
+  <img src="assets/css/psnr_curve.svg"/>
+</p>
