@@ -61,9 +61,9 @@ This also highlights the added value of our method, as it exhibits notable impro
   
 <table>
     <tr>
-        <td>Resolution</td>
-        <td>PSNR</td>
-        <td>SSIM</td>
+        <th>Resolution</th>
+        <th>PSNR</th>
+        <th>SSIM</th>
     </tr>
     <tr>
         <td>512 x 512</td>
