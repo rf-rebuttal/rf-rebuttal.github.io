@@ -1,7 +1,5 @@
 In this page, we provide supplementary experiments for our RefinedFields ICML rebuttal.
 
-# Tables
-
 ## Table A
 In this table, we increase the number of feature per-plane when training classical single-scale K-Planes.
 As illustrated, the rendering quality of K-Planes does not exhibit notable improvements even when drastically increasing the model size.
