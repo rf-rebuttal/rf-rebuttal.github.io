@@ -73,7 +73,8 @@ This also highlights the added value of our method, as it exhibits notable impro
 
 ## Figure A
 In this figure, we illustrate the rendering PSNR throughout our optimization procedure.
-As illustrated:
+
+As depicted:
   - N1 and N2 are chosen so that the alternating procedure switches stages as soon as the model starts to converge
   - Our method improves upon K-Planes by side-stepping its lower PSNR plateau, through the re-initialization of K-Planes with the improved and _refined_ K-Planes.
   - Hence, this allows our base representation to converge to a significantly higher PSNR than what it would have attained without scene refining.
