@@ -9,7 +9,7 @@ In this page, we provide supplementary experiments for our RefinedFields ICML re
 | 64                | 00.00| 00.00|
 | 128               | 00.00| 00.00|
 | 256               | 00.00| 00.00|
-| ----------------- | ---- | ---- |
+| --- | ---- | ---- |
 | 32 (our method)   | 00.00| 00.00|
 
 
