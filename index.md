@@ -6,7 +6,8 @@ As illustrated, the rendering quality of K-Planes does not exhibit notable impro
 Hence, K-Planes results are already optimal for the default number of 32 features.
 This further highlights the added value of our method, as it exhibits notable improvements to PSNR and SSIM while utilizing the same base representation.
 
-<table class="center">
+<p align="center">
+<table>
     <tr>
         <th>Feature Dimension</th>
         <th>PSNR</th>
@@ -43,6 +44,7 @@ This further highlights the added value of our method, as it exhibits notable im
         <td><b>0.7379</b></td>
     </tr>
 </table>
+</p>
 
 ## Table B
 In this table, we increase the per-plane resolution when training classical single-scale K-Planes.
@@ -50,8 +52,9 @@ As illustrated, the resolution of 512 x 512 is already the optimal resolution fo
 Our experiments show that increasing this resolution actually degrades the quality of renderings. 
 Hence, K-Planes results are laready optimal ofr the default 512 x 512 resolution.
 This also highlights the added value of our method, as it exhibits notable improvements to PSNR and SSIM while utilizing the same base representation.
-  
-<table class="center">
+
+<p align="center">
+<table>
     <tr>
         <th>Resolution</th>
         <th>PSNR</th>
@@ -88,6 +91,7 @@ This also highlights the added value of our method, as it exhibits notable impro
         <td><b>0.7379</b></td>
     </tr>
 </table>
+</p>
 
 ## Figure A
 In this figure, we illustrate the rendering PSNR throughout our optimization procedure.
