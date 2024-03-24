@@ -9,16 +9,44 @@ Hence, K-Planes results are already optimal for the default number of 32 feature
 This further highlights the added value of our method, as it exhibits notable improvements to PSNR and SSIM while utilizing the same base representation.
 
 <center>
-  
-| Feature Dimension |   PSNR   |   SSIM    |
-| :---------------: | :------: | :-------: |
-| 16                |   21.25  |   0.6627  |
-| 32                |   21.30  |   0.6627  |
-| 64                |   21.60  |   0.6879  |
-| 128               |   21.69  |   0.6896  |
-| 256               |   21.68  |   0.6897  |
-|-------------------|----------|-----------|
-|**32 (our method)**| **23.42**| **0.7379**|
+
+<table>
+    <tr>
+        <td>Feature Dimension</td>
+        <td>PSNR</td>
+        <td>SSIM</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>21.25</td>
+        <td>0.6627</td>
+    </tr>
+    <tr>
+        <td>32</td>
+        <td>21.30</td>
+        <td>0.6627</td>
+    </tr>
+    <tr>
+        <td>64</td>
+        <td>21.60</td>
+        <td>0.6879</td>
+    </tr>
+    <tr>
+        <td>128</td>
+        <td>21.69</td>
+        <td>0.6896</td>
+    </tr>
+    <tr>
+        <td>256</td>
+        <td>21.68</td>
+        <td>0.6897</td>
+    </tr>
+    <tr>
+        <td><b>32 (our method)</b></td>
+        <td><b>23.42</b></td>
+        <td><b>0.7379</b></td>
+    </tr>
+</table>
 
 </center>
 
@@ -44,5 +72,10 @@ This also highlights the added value of our method, as it exhibits notable impro
 </center>
 
 ## Figure A
+In this figure, we illustrate the rendering PSNR throughout our optimization procedure.
+As illustrated:
+  - N1 and N2 are chosen so that the alternating procedure switches stages as soon as the model starts to converge
+  - Our method improves upon K-Planes by side-stepping its lower PSNR plateau, through the re-initialization of K-Planes with the improved and _refined_ K-Planes.
+  - Hence, this allows our base representation to converge to a significantly higher PSNR than what it would have attained without scene refining.
 
-![Figure](assets/css/schema.svg)
+![Figure](assets/css/psnr_curve.svg)
