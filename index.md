@@ -3,7 +3,7 @@ In this page, we provide supplementary experiments for our RefinedFields ICML re
 # Tables
 
 | Feature Dimension |   PSNR   |   SSIM    |
-| ----------------- | -------- | --------- |
+| :---------------: | :------: | :-------: |
 | 16                |   21.25  |   0.6627  |
 | 32                |   21.30  |   0.6627  |
 | 64                |   21.60  |   0.6879  |
