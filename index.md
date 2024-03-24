@@ -2,7 +2,7 @@ In this page, we provide supplementary experiments for our RefinedFields ICML re
 
 # Tables
 
-## Table 1
+## Table A
 In this table, we increase the number of feature per-plane when training classical single-scale K-Planes.
 As illustrated, the rendering quality of K-Planes does not exhibit notable improvements even when drastically increasing the model size.
 Hence, K-Planes results are already optimal for the default number of 32 features.
@@ -22,7 +22,7 @@ This further highlights the added value of our method, as it exhibits notable im
 
 </center>
 
-## Table 2
+## Table B
 In this table, we increase the per-plane resolution when training classical single-scale K-Planes.
 As illustrated, the resolution of 512 x 512 is already the optimal resolution for K-Planes. 
 Our experiments show that increasing this resolution actually degrades the quality of renderings. 
@@ -43,6 +43,6 @@ This also highlights the added value of our method, as it exhibits notable impro
 
 </center>
 
-
+## Figure A
 
 ![Figure](assets/css/schema.svg)
