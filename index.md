@@ -108,7 +108,7 @@ As depicted:
   - Hence, this allows our base representation to converge to a significantly higher PSNR than what it would have attained without scene refining.
 
 <p align="center">
-  <img src="assets/css/psnr_curve_vis.png" width="75%"/>
+  <img src="assets/css/psnr_curve_visu.png" width="75%"/>
 </p>
 
 Note that for illustration purposes, we run K-Planes for a higher number of epochs here, leading to a slower learning rate scheduler for the K-Planes curve.
