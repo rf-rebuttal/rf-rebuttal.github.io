@@ -99,7 +99,8 @@ This also highlights the added value of our method, as it exhibits notable impro
 </div>
 
 ## Figure A
-In this figure, we illustrate the rendering PSNR throughout our optimization procedure.
+In this figure, we illustrate the rendering PSNR throughout our optimization procedure, and a comparison with K-Planes.
+Each section (1 to 9) represents one fitting phase, where K-Planes are replaced with refined K-Planes between two consecutive stages.
 
 As depicted:
   - N1 and N2 are chosen so that the alternating procedure switches stages as soon as the model starts to converge
@@ -109,3 +110,5 @@ As depicted:
 <p align="center">
   <img src="assets/css/psnr_curve.svg"/>
 </p>
+
+Note that for illustration purposes, we run K-Planes for a higher number of epochs here, leading to a slower learning rate scheduler for the K-Planes curve.
